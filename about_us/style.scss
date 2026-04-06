@@ -140,7 +140,178 @@ ul{
 
 //                  СЕКЦИЯ 1
 
+.sec1_left{
+    margin: 0 auto;
+    position: relative;
+    right: 300px;
+    width: 862px;
+    height: 862px;
+}
+.gray1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 862px;
+    height: 862px;
+    border-radius: 9999px;
+    background-color: #fbfafa;
+}
+.gray_img{
+    width: 550px;
+    height: 550px;
+    border-radius: 9999px;
+    background-image: url(images/sec1/image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gray2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 694px;
+    height: 694px;
+    border-radius: 9999px;
+    background-color: #D0CCC7;
+}
+.sec1{
+    height: 860px;
+    width: 100%;
+    h1{
+        color: #FF8A00;
+        font-family: 'Tions';
+        font-size: 5rem;
+        line-height: 1.1;
+        font-weight: bold;
+        width: 360px;
+        span{
+            color: #311F09;
+            font-family: 'Tions';
+            font-size: 5rem;
+            line-height: 1.1;
+            font-weight: bold;
+        }
+    }
+    p{
+        color: #5C4529;
+        font-size: 1.25rem;
+        font-weight: 300;
+        width: 424px;
+        line-height: 2;
+        font-family: 'Poppins';
+    }
+}
+.sec1_main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .sec1_main_right{
+        width: 424px;
+        margin: 0 auto;
+        height: 556px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 
+//                  СЕКЦИЯ 2
+
+.sec2{
+    .sec2_main{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    width: 100%;
+    height: 860px;
+    p{
+        color: #5C4529;
+        font-size: 1.25rem;
+        font-weight: 300;
+        width: 424px;
+        line-height: 2;
+        font-family: 'Poppins';
+    }
+}
+.sec2_right{
+    position: relative;
+    left: 300px;
+    margin: 0 auto;
+}
+
+//                  СЕКЦИЯ 3
+
+.sec3{
+    height: 955px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .sec3_main{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .sec3_main_right{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .sec3_main_right_mid p{
+                color: #000000;
+                font-size: 2.5rem;
+                font-family: 'Poppins';
+                font-weight: 600;
+            }
+            .sec3_main_right_bot{
+                width: 495px;
+                height: 280px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    width: 495px;
+                    color: #5C4529;
+                    font-family: 'Poppins';
+                    font-style: italic;
+                    font-weight: 200;
+                    font-size: 1.875rem;
+                }
+                .sec3_main_right_bot_dots1, .sec3_main_right_bot_dots2{
+                    width: 100%;
+                    height: 65px;
+                    display: flex;
+                    align-items: center;
+                }
+                .sec3_main_right_bot_dots1{
+                    display: flex;
+                    justify-content: start;
+                }
+                .sec3_main_right_bot_dots2{
+                    display: flex;
+                    justify-content: end;
+                }
+            }
+        }
+    }
+    h1{
+        color: #FF8A00;
+        font-family: 'Tions';
+        font-size: 5rem;
+        line-height: 1.1;
+        font-weight: bold;
+        width: 522px;
+        span{
+            color: #311F09;
+            font-family: 'Tions';
+            font-size: 5rem;
+            line-height: 1.1;
+            font-weight: bold;
+        }
+    }
+}
 
 //                  ФУТЕР
 
